@@ -24,8 +24,8 @@ This project demonstrates the deployment of a dynamic website on AWS using multi
 ## Deployment Steps
 1. **Clone the Repository:**
    ```sh
-   git clone <your-repo-link-here>
-   cd <project-directory>
+   git clone [<your-repo-link-here>](https://github.com/logunlaja26/Dynamic-Website-Hosting-on-AWS)
+   cd <Dynamic-Website-Hosting-on-AWS>
    ```
 2. **Setup AWS CLI & Terraform:**
    - Ensure AWS CLI is installed and configured with the necessary permissions.

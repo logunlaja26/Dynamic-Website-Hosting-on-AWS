@@ -29,11 +29,15 @@ This project demonstrates the deployment of a dynamic website on AWS using multi
    ```
 2. **Setup AWS CLI:**
    - Ensure AWS CLI is installed and configured with the necessary permissions.
-3. **Verify Resources:**
+3. **Set Up Auto Scaling Group**  
+   - Launch EC2 instances within private subnets.
+   - Configure Auto Scaling Group with desired, minimum, and maximum instance counts.  
+   - Integrate CloudWatch or custom metrics to trigger scaling policies.
+4. **Verify Resources:**
    - Check VPC, subnets, security groups, and EC2 instances via the AWS Management Console.
    - Confirm domain resolution using Route 53.
    - Verify ALB health checks and Auto Scaling Group behavior.
-4. **Monitor and Manage:**
+5. **Monitor and Manage:**
    - Check SNS notifications for Auto Scaling Group updates.
    - Adjust scaling policies as needed.
    - Secure SSH access using EC2 Instance Connect.

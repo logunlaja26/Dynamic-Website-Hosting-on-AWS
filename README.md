@@ -1,7 +1,7 @@
 # Dynamic Website Hosting on AWS
 
 ## Project Overview
-This project demonstrates the deployment of a dynamic website on AWS using multiple services and best practices to ensure high availability, security, and scalability. The project is structured using Infrastructure as Code (IaC) principles, with all deployment scripts and a reference diagram available in the associated [GitHub repository](<your-repo-link-here>).
+This project demonstrates the deployment of a dynamic website on AWS using multiple services and best practices to ensure high availability, security, and scalability. The project is structured using Infrastructure as Code (IaC) principles, with all deployment scripts and a reference diagram available in the associated [GitHub repository](<Dynamic-Website-Hosting-on-AWS>).
 
 ## Architecture & Resources Used
 

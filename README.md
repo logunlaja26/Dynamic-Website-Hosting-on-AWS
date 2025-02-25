@@ -27,26 +27,13 @@ This project demonstrates the deployment of a dynamic website on AWS using multi
    git clone https://github.com/logunlaja26/Dynamic-Website-Hosting-on-AWS
    cd Dynamic-Website-Hosting-on-AWS
    ```
-2. **Setup AWS CLI & Terraform:**
+2. **Setup AWS CLI:**
    - Ensure AWS CLI is installed and configured with the necessary permissions.
-   - Install Terraform and initialize the project.
-   ```sh
-   terraform init
-   ```
-3. **Deploy Infrastructure:**
-   ```sh
-   terraform apply -auto-approve
-   ```
-4. **Verify Resources:**
+3. **Verify Resources:**
    - Check VPC, subnets, security groups, and EC2 instances via the AWS Management Console.
    - Confirm domain resolution using Route 53.
    - Verify ALB health checks and Auto Scaling Group behavior.
-5. **Access the Website:**
-   - Retrieve the ALB DNS name and access the website in a browser.
-   ```sh
-   aws elbv2 describe-load-balancers --query 'LoadBalancers[*].DNSName'
-   ```
-6. **Monitor and Manage:**
+4. **Monitor and Manage:**
    - Check SNS notifications for Auto Scaling Group updates.
    - Adjust scaling policies as needed.
    - Secure SSH access using EC2 Instance Connect.
